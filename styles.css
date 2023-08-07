@@ -1,0 +1,333 @@
+@font-face {
+    font-family: "ITC Avant Garde Gothic W05 Book";
+    src: url("https://db.onlinewebfonts.com/t/8e59fdbc7a7fdb1bab1b12af14615047.eot");
+    src: url("https://db.onlinewebfonts.com/t/8e59fdbc7a7fdb1bab1b12af14615047.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/8e59fdbc7a7fdb1bab1b12af14615047.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/8e59fdbc7a7fdb1bab1b12af14615047.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/8e59fdbc7a7fdb1bab1b12af14615047.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/8e59fdbc7a7fdb1bab1b12af14615047.svg#ITC Avant Garde Gothic W05 Book")format("svg");
+}
+
+* {
+    margin: 0;
+    padding: 0; 
+    font-family: "ITC Avant Garde Gothic W05 Book"; 
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+/* NAVBAR */ 
+
+.container-navbar {
+    display: flex;
+    color: #C7DEF4;
+    background-color: #1F2937;
+    padding: 20px 0px 20px 100px;
+    align-items: center;
+}
+
+.logo {
+    color: #E5E7EB;
+    font-size: 36px;
+    margin-right: 36px; 
+}
+
+.navbar-link {
+    display: inline;
+    margin-left: auto;
+    padding: 0px 100px 0px 0px; 
+}
+
+.navbar-link a {
+    text-decoration: none;
+    color: #E5E7EB;
+    font-size: 12px;
+    margin-left: 24px;
+}
+
+/* ABOUT US SECTION */ 
+
+.about-us {
+    height: 100%; 
+    padding: 192px 36px; 
+    background-color: #C7DEF4;
+}
+
+.container-fluid {
+    display: flex;
+    margin-left: 144px; 
+    margin-right: 144px; 
+}
+
+.welcome-description {
+    font-size: 16px; 
+    text-align: justify;
+    margin-top: 18px; 
+    margin-right: 72px;
+}
+
+.welcome-button {
+    margin-top: 24px; 
+}
+
+.welcome-button-style {
+    padding: 12px; 
+    background-color: #C7DEF4;
+    border: 2px solid;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.photo-header {
+    width: 240px;
+}
+
+@media (max-width: 768px) {
+    .about-us {
+        background-color: #C7DEF4;
+        padding: 32px; 
+    }
+    .container-fluid {
+        display: inline; 
+    }
+    .welcome-text {
+        text-align: center;
+    }
+    .welcome-description {
+        font-size: 12px; 
+    }
+    .welcome-button {
+        margin-bottom: 24px; 
+        text-align: center;
+    }
+    .photo {
+        text-align: center;
+    }
+    .photo-header {
+        margin-bottom: 24px; 
+    }
+}
+
+@media (max-width: 992px) {
+    .about-us {
+        background-color: #C7DEF4;
+        padding: 32px; 
+    }
+    .container-fluid {
+        display: inline; 
+    }
+    .welcome-text {
+        text-align: center;
+    }
+    .welcome-description {
+        margin-left: 48px;
+        margin-right: 48px;
+    }
+    .welcome-button {
+        margin-bottom: 24px; 
+        text-align: center;
+    }
+    .photo {
+        text-align: center;
+    }
+    .photo-header {
+        width: 300px;
+    }
+}
+
+
+/* OUR STORY */ 
+
+.our-story {
+    margin-top: 72px; 
+    text-align: center;
+}
+
+.text-story {
+    margin-top: 48px; 
+}
+
+.our-story-title-2 {
+    text-transform: uppercase;
+    margin-bottom: 24px; 
+}
+
+.story-description {
+    font-size: 16px; 
+    text-align: justify;
+    margin-left: 72px;
+    margin-right: 72px;
+    margin-bottom: 24px;
+}
+
+.sushi-cats-story {
+    margin-bottom: 72px; 
+}
+
+iframe {
+    width: 600px; 
+    height: 480px; 
+}
+
+@media (max-width: 768px) {
+    iframe {
+        width: 360px; 
+        height: 240px; 
+    }
+    .story-description {
+        font-size: 12px;
+    }
+}
+
+@media (min-width: 992px) {
+    iframe {
+        width: 600px; 
+        height: 480px; 
+    }
+    .story-description {
+        margin-left: 144px;
+        margin-right: 144px;
+    }
+}
+
+/* THE COLLECTION SECTION */ 
+
+.section-collection {
+    background-color: #C7DEF4;
+    padding: 12px 12px; 
+}
+
+.the-collection {
+    text-align: center;
+    margin-bottom: 48px; 
+}
+
+.the-collection-title-1 {
+    margin-top: 48px; 
+}
+
+.the-collection-title-2 {
+    text-transform: uppercase;
+    margin-bottom: 24px; 
+}
+
+.the-collection-title-1, .the-collection-title-2 {
+    font-weight: bolder; 
+}
+
+.container-flex-1, .container-flex-2, .container-flex-3 {
+    display: flex; 
+    justify-content: center;
+    margin-left: 144px; 
+    margin-right: 144px; 
+    margin-top: 24px; 
+    margin-bottom: 24px; 
+}
+
+.sushi-cat-1, .sushi-cat-2, .sushi-cat-3, .sushi-cat-4, .sushi-cat-5, .sushi-cat-6, .sushi-cat-7, .sushi-cat-8, .sushi-cat-9 {
+    margin-left: 12px; 
+    margin-right: 12px; 
+}
+
+/* Cat Image */ 
+
+.sushi-cat-image {
+    text-align: center;
+}
+
+.sushi-cat-image-link {
+    width: 80%; 
+    border: 1.5px solid;
+}
+
+/* Cat Name & Description */ 
+
+.sushi-cat-name {
+    font-size: 20px; 
+    text-align: center;
+    margin-top: 6px; 
+    margin-bottom: 6px; 
+    font-weight: bolder; 
+}
+
+.sushi-cat-description {
+    font-size: 12px; 
+    text-align: justify;
+}
+
+/* Flexbox */ 
+
+.container-flex-2, .container-flex-3 {
+    margin-top: 12px; 
+}
+
+/* Media Query */
+
+@media (max-width: 756px) {
+    .the-collection-title {
+        margin-bottom: 12px;
+    }
+    .container-flex-1, .container-flex-2, .container-flex-3 {
+        flex-direction: column;
+        margin-left: 0px; 
+        margin-right: 0px; 
+        margin-top: 0px; 
+        margin-bottom: 0px; 
+    }
+    .sushi-cat-1, .sushi-cat-2, .sushi-cat-3, .sushi-cat-4, .sushi-cat-5, .sushi-cat-6, .sushi-cat-7, .sushi-cat-8, .sushi-cat-9 {
+        margin-bottom: 12px;
+    }
+    .sushi-cat-name {
+        font-size: 20px; 
+    }
+    .sushi-cat-description {
+        font-size: 12px; 
+        margin-bottom: 14px;
+    }
+}
+
+@media (max-width: 992px) {
+    .container-flex-1, .container-flex-2, .container-flex-3 {
+        margin-left: 48px; 
+        margin-right: 48px; 
+    }
+}
+
+@media (max-width: 1200px) {
+    .container-flex-1, .container-flex-2, .container-flex-3 {
+        margin-left: 48px; 
+        margin-right: 48px; 
+    }
+}
+
+/* CONTACT SECTION */ 
+
+.social-icons {
+    font-size: 24px;
+    text-align: center;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+.fa {
+    padding: 20px 24px; 
+    background-color: #C7DEF4;
+    border-radius: 100%;
+}
+
+/* FOOTER SECTION */ 
+
+.footer {
+    font-size: 8px;
+    text-align: center;
+    margin-top: 6px;
+    margin-bottom: 12px;
+}
+
+.link {
+    text-decoration: none;
+    color: black;
+}
